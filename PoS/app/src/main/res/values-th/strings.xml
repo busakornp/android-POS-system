@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PoS</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่ใช่</string>
+    <string name="maybe">อาจจะ</string>
+    <string name="setup_branch">ตั้งค่าสาขา</string>
+    <string name="update_branch">อัพเดทสาขา</string>
+    <string name="chage_ui_settings">เปลี่ยน UI ตั้งค่า</string>
+    <string name="upload_daily_report">อัพโหลดรายงานประจำวัน</string>
+    <string name="stamford_pos_setting">การตั้งค่า POS ของสแตมฟอร์ด</string>
+    <string name="search_contact">ค้นหาผู้ติดต่อ</string>
+    <string name = "total_amount_str">Total amount = %d</string>
+
+
+    <string name="preference_file_key">com.stamford.pos.secret_pref</string>
+    <string name="credential_stored_key">credential_stored_key</string>
+    <string name="username_key">username_key</string>
+    <string name="password_key">password_key</string>
+    <string name="keyBytes_key">keyBytes_key</string>
+    <string name="salt_key">salt_key</string>
+    <string name="iv_key">iv_key</string>
+
+    <string name="cat_macarons">มาคารอน</string>
+    <string name="cat_drinks">เครื่องดื่ม</string>
+    <string name="cat_desserts">ขนมหวาน</string>
+    <string name="stamford_pos_application">สแตมฟอร์ด POS แอปพลิเคชั่น</string>
+    <string name="remember_me">จดจำ</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="user">ผู้ใช้:</string>
+    <string name="password">รหัสผ่าน:</string>
+    <string name="branch_name_order">สาขา_ชื่อ_ลำดับ</string>
+    <string name="staff_name_order">พนักงาน_ชื่อ_ลำดับ</string>
+    <string name="staff_id_order">ำนักงาน_ไอดี_ลำดับ</string>
+    <string name="macarons">มาคารอน</string>
+    <string name="desserts">ขนมหวาน</string>
+    <string name="fruits">ผลไม้</string>
+    <string name="thai_dishes">อาหารไทย</string>
+    <string name="ice_creams">ไอศครีม</string>
+    <string name="drinks">เครื่องดื่ม</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_orders_to_remote_server">ส่งคำสั่งไปยังเซิร์ฟเวอร์ระยะไกล</string>
+    <string name="retrieve_orders_from_remote_server">รับคำสั่งจากเซิร์ฟเวอร์ระยะไกล</string>
+    <string name="play_str">เล่น</string>
+    <string name="stop_str">หยุด</string>
+    <string name="new_order">ออเดอร์ใหม่</string>
+    <string name="command_center">ศูนย์ระบบ</string>
+    <string name="stop_music">หยุดเพลง</string>
+    <string name="add_product">เพิ่มรายการ</string>
+    <string name="play_music">เล่นเพลง</string>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PoS</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="maybe">Maybe</string>
+    <string name="setup_branch">Setup Branch</string>
+    <string name="update_branch">Update Branch</string>
+    <string name="chage_ui_settings">Chage UI Settings</string>
+    <string name="upload_daily_report">Upload Daily Report</string>
+    <string name="stamford_pos_setting">Stamford POS Setting</string>
+    <string name="search_contact">search contact</string>
+    <string name = "total_amount_str">Total amount = %d</string>
+
+
+    <string name="preference_file_key">com.stamford.pos.secret_pref</string>
+    <string name="credential_stored_key">credential_stored_key</string>
+    <string name="username_key">username_key</string>
+    <string name="password_key">password_key</string>
+    <string name="keyBytes_key">keyBytes_key</string>
+    <string name="salt_key">salt_key</string>
+    <string name="iv_key">iv_key</string>
+
+    <string name="cat_macarons">Macarons</string>
+    <string name="cat_drinks">Drinks</string>
+    <string name="cat_desserts">Desserts</string>
+    <string name="stamford_pos_application">Stamford POS Application</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="user">User:</string>
+    <string name="password">Password:</string>
+    <string name="branch_name_order">branch_name_order</string>
+    <string name="staff_name_order">staff_name_order</string>
+    <string name="staff_id_order">staff_id_order</string>
+    <string name="macarons">Macarons</string>
+    <string name="desserts">Desserts</string>
+    <string name="fruits">Fruits</string>
+    <string name="thai_dishes">Thai Dishes</string>
+    <string name="ice_creams">Ice-creams</string>
+    <string name="drinks">Drinks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_orders_to_remote_server">Submit orders to remote server</string>
+    <string name="retrieve_orders_from_remote_server">Retrieve orders from remote server</string>
+    <string name="play_str">play</string>
+    <string name="stop_str">stop</string>
+    <string name="stop_music">Stop music</string>
+    <string name="add_product">Add Product</string>
+    <string name="new_order">New Order</string>
+    <string name="command_center">Command Center</string>
+    <string name="play_music">Play music</string>
+</resources>

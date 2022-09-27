@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CommandCenter"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/onclick_stopbtn"
+        android:layout_width="270dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="640dp"
+        android:layout_marginTop="408dp"
+        android:onClick="onclick_stopbtn"
+        android:text="Stop music"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/onclick_playbtn"
+        android:layout_width="276dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="632dp"
+        android:layout_marginTop="284dp"
+        android:onClick="onclick_playbtn"
+        android:text="Play music"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_add_product"
+        android:layout_width="438dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="444dp"
+        android:text="Add Product"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_new_order"
+        android:layout_width="438dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="248dp"
+        android:text="New Order"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="120dp"
+        android:text="Command Center"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

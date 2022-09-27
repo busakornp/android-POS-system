@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowProductFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp">
+
+            <TextView
+                android:id="@+id/textView_branch_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/branch_name_order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView_staff_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/staff_id_order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView_staff_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="80dp"
+                android:text="@string/staff_name_order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView_productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="110dp"
+                android:text="TextView" />
+
+            <ImageView
+                android:id="@+id/imageView_product"
+                android:layout_width="400dp"
+                android:layout_height="192dp"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/macaron_black" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ListView
+                android:id="@+id/cartlist"
+                android:layout_width="400dp"
+                android:layout_height="152dp"
+                android:layout_marginStart="400dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/total_price_textView"
+                android:layout_width="165dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginBottom="76dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/retrieve"
+                android:layout_width="166dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="400dp"
+                android:layout_marginTop="210dp"
+                android:onClick="onclick_retrieve_orders_btn"
+                android:text="Retrieve Order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="151dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="600dp"
+                android:layout_marginTop="210dp"
+                android:onClick="onclick_submit_order_btn"
+                android:text="Submit Order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+
+        <!--    <fragment-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="838dp">-->
+        <!--    </fragment>-->
+    </LinearLayout>
+</FrameLayout>
